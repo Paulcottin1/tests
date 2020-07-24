@@ -1,0 +1,17 @@
+html {
+    height:100%;
+}
+
+body {
+    min-height:100%;
+}
+
+.full-height {
+    min-height:20vh!important;
+}
+
+h1 {
+    text-align:center;
+    color:#343a40;
+    font-weight: bold;
+}
