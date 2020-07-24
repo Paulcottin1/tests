@@ -17,8 +17,8 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 15px!important;
-  text-align: center!important;
+  margin-bottom: 15px !important;
+  text-align: center !important;
 }
 
 h3 {
@@ -26,16 +26,16 @@ h3 {
 }
 
 a {
-  color: white!important;
+  color: white !important;
   text-transform: uppercase;
 }
 
 .margin-bottom {
-  padding-bottom: 15px!important;
+  padding-bottom: 15px !important;
 }
 
 .margin-top {
-  padding-top: 15px!important;
+  padding-top: 15px !important;
 }
 
 .background {
@@ -45,10 +45,11 @@ a {
 .button {
   margin-bottom: 15px;
 }
+
 /* blog page */
-.title-blog-page {
-  background: rgb(52,58,64);
-  background: linear-gradient(180deg, rgba(52,58,64,1) 21%, rgba(36,39,44,1) 100%);    height: 300px;
+.title-blog-page {
+  background: rgb(52, 58, 64);
+  background: linear-gradient(180deg, rgba(52,58,64,1) 21%, rgba(36,39,44,1) 100%);
   height: 300px;
 }
 
@@ -82,17 +83,18 @@ a {
 .news h3 {
   background-color: white;
   font-size: 20px !important;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   height: 80px;
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
   text-transform: uppercase;
 }
+
 .news p {
-  background-color:white;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   height: 60px !important;
 }
@@ -100,7 +102,7 @@ a {
 .news img {
   height: 200px;
   width: 100%;
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0 0;
   border: 1px solid #343a40;
 }
 
@@ -115,7 +117,7 @@ a {
 .desc {
   border: 1px solid #343a40;
   height: 200px !important;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 0 0 5px 5px;
   background-color: white;
 }
 
@@ -123,6 +125,7 @@ a {
   height: 50px;
   width: 100%;
 }
+
 .img-post-view img {
   display: block;
   margin-left: 50px;
@@ -184,20 +187,22 @@ a {
   position: absolute;
   left: 40%;
 }
+
 .paging {
   height: 50px;
   background-color: #25282d;
   padding-top: 5px;
 }
 .paging a {
-  background-color : white;
+  background-color: white;
   color: #343a40 !important;
 }
+
 /* home */
 .social-media {
   background: rgb(52,58,64);
-  background: linear-gradient(180deg, rgba(52,58,64,1) 21%, rgba(36,39,44,1) 100%);    height: 300px;
-
+  background: linear-gradient(180deg, rgba(52,58,64,1) 21%, rgba(36,39,44,1) 100%);
+  height: 300px;
 }
 
 .social-media h2 {
@@ -215,16 +220,13 @@ a {
   text-decoration: none;
 }
 
-.social-media a:hover {
-  text-decoration: none;
-}
-
 .name {
   background: rgb(52,58,64);
-  background: linear-gradient(180deg, rgba(52,58,64,1) 21%, rgba(36,39,44,1) 100%);    height: 300px;
+  background: linear-gradient(180deg, rgba(52, 58, 64, 1) 21%, rgba(36, 39 ,44, 1) 100%); 
+  height: 300px;
   padding-top: 20px;
   padding-bottom: 20px;
-  position: relative
+  position: relative;
 }
 
 .name p {
@@ -260,8 +262,6 @@ a {
 
 .cv a {
   width: 30%;
-  margin-bottom: 15px;
-  margin: 0;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -272,13 +272,14 @@ a {
   margin-bottom: 10px;
   padding-top: 15px;
 }
+
 /* Nav */
 
 .menu {
   float: right;
 }
 
-.dropdown-menu  {
+.dropdown-menu {
   background-color: #545b62 !important;
 }
 
@@ -297,7 +298,6 @@ a {
   color: black !important;
 }
 
-
 .admin-div {
   height: 200px;
   margin-bottom: 25px;
@@ -310,6 +310,7 @@ a {
   height: 50px;
   width: 50px;
 }
+
 .form-add-post input {
   width: 100% !important;
   margin-top: 5px;
@@ -326,17 +327,21 @@ a {
 /* respondive */
 
 @media all and (max-width: 575px) {
-    .news {
-      width: 70% !important;
-    }
+  .news {
+    width: 70% !important;
+  }
 
-    .name p {
-      display: none;
-    }
+  .name p {
+    display: none;
+  }
 }
 
 @media all and (max-width: 680px) {
-    .name p {
-      display: none;
-    }
+  .name p {
+    display: none;
+  }
+}
+
+.social-media a:hover {
+  text-decoration: none;
 }
